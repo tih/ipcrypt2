@@ -69,7 +69,7 @@
 #endif
 
 #ifndef HAVE_EXPLICIT_MEMSET
-#    if (defined(__NetBSD__)
+#    if defined(__NetBSD__)
 #        define HAVE_EXPLICIT_MEMSET 1
 #    endif
 #endif
